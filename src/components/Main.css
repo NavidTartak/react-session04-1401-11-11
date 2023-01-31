@@ -1,0 +1,43 @@
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.input-group-text-left-flat-login :focus,
+select:focus,
+.form-control:focus,
+.uneditable-input:focus {
+  border-color: #343a40 !important;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0) inset, 0 0 0 rgba(0, 0, 0, 0) !important;
+  outline: 0 none !important;
+}
+input[type="checkbox"] {
+  cursor: pointer;
+  accent-color: #343a40;
+}
+input[type="radio"] {
+  cursor: pointer;
+  accent-color: #343a40;
+}
+.noselectable {
+  user-select: none !important;
+}
+.btn-react {
+  background-color: #61dafb;
+  color: #212529 !important;
+  transition: 0.1s;
+}
+.btn-react:hover {
+  background-color: #4fb3cf;
+  color: #212529 !important;
+}

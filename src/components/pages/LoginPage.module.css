@@ -1,0 +1,42 @@
+.rowMargin {
+  margin-top: 8em;
+}
+.bgForm {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 0.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+.appLogo {
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .appLogo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.m05auto {
+  margin: 0.5em auto;
+}
+.m1auto {
+  margin: 0.5em auto;
+}
+.font09 {
+  font-size: 0.9em;
+}
+.borderRadiusLeftFlat {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.cursorPointer {
+  cursor: pointer !important;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

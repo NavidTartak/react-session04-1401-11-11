@@ -1,0 +1,24 @@
+.m05auto {
+  margin: 0.5em auto;
+}
+.cardContainer {
+  padding: 0.5em;
+  border-radius: 0.5em;
+  background: rgba(255, 255, 255, 0.7);
+}
+.labelCard {
+  width: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.productCardImg {
+  width: 100%;
+  transition: 0.1s;
+}
+.productCardImg:hover {
+  opacity: 0.8;
+  z-index: 2;
+}
+.cursorPointer {
+  cursor: pointer !important;
+}

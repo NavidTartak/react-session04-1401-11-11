@@ -1,0 +1,11 @@
+.m05auto {
+  margin: 0.5em auto;
+}
+.cursorPointer {
+  cursor: pointer !important;
+}
+.labelCard {
+  width: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
